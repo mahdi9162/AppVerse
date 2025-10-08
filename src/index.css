@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+@plugin "daisyui";
+
+html,
+body {
+  @apply bg-[#F5F5F5];
+}
+
