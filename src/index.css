@@ -6,3 +6,26 @@ body {
   @apply bg-[#F5F5F5];
 }
 
+/* Navbar Style */
+.nav-link {
+  @apply text-gray-500 pb-1 transition-all duration-400 text-lg font-semibold;
+}
+
+.nav-link:hover {
+  @apply bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent border-b border-sky-400;
+}
+
+.nav-link-active {
+  @apply bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent border-b-2 border-sky-500 drop-shadow-[0_0_8px_#38bdf8] text-2xl font-semibold;
+}
+
+.nav-btn {
+  @apply px-5 py-2 rounded-md font-semibold 
+  bg-gradient-to-r from-sky-500 to-blue-600 
+  text-white shadow-[0_0_12px_#38bdf8]
+  transition-all duration-500;
+}
+
+.nav-btn:hover {
+  @apply from-blue-500 to-sky-600 shadow-[0_0_18px_#60a5fa]  scale-[1.03] cursor-pointer;
+}
