@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/gMkqsyjT/Note-Pro-1.png",
+    "title": "NotePro",
+    "companyName": "SmartByte",
+    "description": "NotePro is a minimal yet powerful note-taking app built for productivity-focused individuals. It syncs seamlessly across all your devices and supports Markdown formatting for technical or creative writing. With advanced tag management, offline access, and smart search, you’ll never lose an idea again. Customize themes and organize your notes effortlessly to stay focused anytime, anywhere.",
+    "size": 40,
+    "reviews": 12000,
+    "ratingAvg": 4.8,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 7500 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/d06mSPXF/Plan-Wise-1.png",
+    "title": "PlanWise",
+    "companyName": "Orion Systems",
+    "description": "PlanWise helps you manage your day smarter with intelligent scheduling and reminders. From tracking deadlines to aligning your weekly goals, the app adapts to your workflow automatically. It features task categorization, focus timers, and priority-based sorting. With its minimal design and real-time cloud sync, PlanWise keeps your plans accessible from desktop, tablet, and phone seamlessly.",
+    "size": 55,
+    "reviews": 22000,
+    "ratingAvg": 4.7,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 5400 },
+      { "name": "5 star", "count": 11000 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/ccnyHzZ6/Task-Hero-1.png",
+    "title": "TaskHero",
+    "companyName": "NextFlow Apps",
+    "description": "TaskHero turns your to-do list into a motivational experience. Every completed task earns you points, streaks, and custom achievements that make productivity fun. You can group tasks by projects, assign deadlines, and even track habits. The integrated focus mode blocks distractions, while the built-in analytics dashboard helps you visualize your daily and weekly progress like a true hero.",
+    "size": 65,
+    "reviews": 17500,
+    "ratingAvg": 4.8,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 9400 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/pByz6rfM/Wallet-Go-1.png",
+    "title": "WalletGo",
+    "companyName": "PayNova Ltd.",
+    "description": "WalletGo is a secure digital wallet that simplifies payments, transfers, and budgeting in one clean interface. It supports instant transactions, bill splitting, and cross-border payments with real-time currency conversion. You can set spending limits, view analytics, and link multiple accounts. With biometric authentication and 256-bit encryption, your money is always safe and easy to manage.",
+    "size": 70,
+    "reviews": 60000,
+    "ratingAvg": 4.5,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 3800 },
+      { "name": "2 star", "count": 5200 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 14600 },
+      { "name": "5 star", "count": 29400 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/HQMCXDP/Streamlt-Meet-1.png",
+    "title": "StreamIt Meet",
+    "companyName": "CineWave Media",
+    "description": "StreamIt Meet brings effortless video collaboration to remote teams and individuals. It supports HD group calls, live captions, and AI-powered noise reduction. You can share screens, co-edit notes, and record meetings securely to the cloud. Its simple interface and high stability make it a perfect Zoom or Meet alternative for professionals who want performance without complexity.",
+    "size": 110,
+    "reviews": 25000,
+    "ratingAvg": 4.6,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 13700 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/Mk00TNYD/Langify-1.png",
+    "title": "Langify",
+    "companyName": "LingoSoft",
+    "description": "Langify helps you master new languages through short, interactive lessons and quizzes. It adapts to your learning speed and builds personalized daily challenges. Pronunciation AI corrects your accent, while grammar guides ensure a deep understanding of each topic. Offline learning, leaderboards, and real-world dialogue simulations make Langify both fun and efficient for every learner.",
+    "size": 75,
+    "reviews": 56000,
+    "ratingAvg": 4.9,
+    "downloads": 18000000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 8900 },
+      { "name": "5 star", "count": 42600 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/4ZQh7Nyj/Pet-Pal-1.png",
+    "title": "PetPal",
+    "companyName": "FurrySoft",
+    "description": "PetPal is the perfect companion app for pet owners. It lets you track vet visits, medications, grooming schedules, and vaccination reminders. Share cute pet photos with your community and find nearby vets or shelters instantly. The app includes a smart health record system and diet planner so your furry friend stays happy, healthy, and well-organized.",
+    "size": 80,
+    "reviews": 14000,
+    "ratingAvg": 4.6,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 8800 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/bg6r3NyV/Fit-Mate-1.png",
+    "title": "FitMate",
+    "companyName": "PulseTech Labs",
+    "description": "FitMate is your all-in-one wellness tracker for workouts, sleep, and nutrition. It uses AI recommendations to help you stay consistent and reach your fitness goals. Track calories, water intake, and step count while getting weekly insights. Whether you’re training for a marathon or just building better habits, FitMate gives you the tools to take control of your health journey.",
+    "size": 130,
+    "reviews": 30400,
+    "ratingAvg": 4.5,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 8200 },
+      { "name": "5 star", "count": 15200 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/1fshxmw4/Crypto-Hub-1.png",
+    "title": "CryptoHub",
+    "companyName": "BlockStream Inc.",
+    "description": "CryptoHub offers real-time cryptocurrency price tracking, portfolio management, and AI market insights. Set alerts for specific tokens, track NFT values, and analyze market sentiment. With an intuitive dashboard and enterprise-level security, CryptoHub helps traders and investors make informed financial decisions anytime, anywhere. It’s a one-stop solution for all things blockchain.",
+    "size": 90,
+    "reviews": 39000,
+    "ratingAvg": 4.4,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 3500 },
+      { "name": "3 star", "count": 4700 },
+      { "name": "4 star", "count": 9100 },
+      { "name": "5 star", "count": 19200 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/dsXjHtW4/Mind-Flow-1.png",
+    "title": "MindFlow",
+    "companyName": "ZenWorks",
+    "description": "MindFlow is a mindfulness and focus app that helps you recharge your mind and body. It features guided meditations, breathing sessions, and ambient soundscapes for stress relief. Use its focus timer to boost productivity or night mode for sleep support. MindFlow learns your emotional patterns over time and crafts daily recommendations to maintain mental balance and calm.",
+    "size": 95,
+    "reviews": 18500,
+    "ratingAvg": 4.8,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 12100 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/Zzq1gFGK/Time-Sync-1.png",
+    "title": "TimeSync",
+    "companyName": "ChronoLabs",
+    "description": "TimeSync is a precise time-tracking app made for freelancers, teams, and agencies. Easily start, pause, and categorize timers for each project. It automatically generates timesheets and integrates with your calendar to show daily productivity. Export detailed reports and invoices in one tap — helping you save time while managing your time smarter.",
+    "size": 60,
+    "reviews": 21000,
+    "ratingAvg": 4.7,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 10700 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/6cm8Mr8M/Cloud-Desk-1.png",
+    "title": "CloudDesk",
+    "companyName": "NimbusWare",
+    "description": "CloudDesk centralizes all your workspace apps — notes, documents, and tasks — into one clean dashboard. You can create shared folders, assign permissions, and collaborate with teammates in real time. It’s fast, secure, and built for hybrid teams who want less chaos and more clarity. Perfect for startups, agencies, and remote professionals.",
+    "size": 150,
+    "reviews": 47000,
+    "ratingAvg": 4.6,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 2200 },
+      { "name": "2 star", "count": 2700 },
+      { "name": "3 star", "count": 5100 },
+      { "name": "4 star", "count": 11200 },
+      { "name": "5 star", "count": 25800 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co.com/DgP4PS0w/Focusly-1.png",
+    "title": "Focusly",
+    "companyName": "Zenova Technologies",
+    "description": "Focusly helps you eliminate distractions and enter deep work sessions with ease. Set Pomodoro-style timers, block distracting websites, and log your focus hours automatically. Each week, you get insights into your attention trends and performance. It’s the perfect tool for students, coders, and professionals who value their focus time.",
+    "size": 55,
+    "reviews": 34000,
+    "ratingAvg": 4.8,
+    "downloads": 8500000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 23000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co.com/CsvPtr2g/Docu-Ease-1.png",
+    "title": "DocuEase",
+    "companyName": "Paperless Co.",
+    "description": "DocuEase is a smart document management app that digitizes, scans, and organizes all your files. It uses OCR to extract text from images and PDFs, making everything searchable. You can annotate, sign, and share documents securely. Ideal for professionals and students who want a clutter-free, eco-friendly way to manage paperwork.",
+    "size": 85,
+    "reviews": 42000,
+    "ratingAvg": 4.5,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 1900 },
+      { "name": "2 star", "count": 2300 },
+      { "name": "3 star", "count": 4300 },
+      { "name": "4 star", "count": 9200 },
+      { "name": "5 star", "count": 24300 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co.com/zWkzP8Vk/Cal-Mind-1.png",
+    "title": "CalMind",
+    "companyName": "NeuroTech Labs",
+    "description": "CalMind is a guided focus and mindfulness app for working professionals. It combines brainwave sounds with breathing techniques to increase mental performance. Use it to reset your brain between tasks or improve your sleep routine. With hundreds of science-backed sessions, CalMind helps you stay calm, sharp, and stress-free.",
+    "size": 100,
+    "reviews": 26000,
+    "ratingAvg": 4.8,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 5800 },
+      { "name": "5 star", "count": 17200 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co.com/mC3C42x6/Work-Chain-1.png",
+    "title": "WorkChain",
+    "companyName": "TeamOrbit",
+    "description": "WorkChain is a team productivity app built for collaboration and accountability. Assign tasks, track progress, and set sprint goals with real-time dashboards. Integrations with Slack, Trello, and Google Drive make it a one-stop solution for modern teams. Whether you’re remote or on-site, WorkChain keeps everyone aligned effortlessly.",
+    "size": 130,
+    "reviews": 50000,
+    "ratingAvg": 4.6,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 2200 },
+      { "name": "2 star", "count": 2800 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 12500 },
+      { "name": "5 star", "count": 27500 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co.com/9Q9G9TK/Habitory-1.png",
+    "title": "Habitory",
+    "companyName": "MotiveSoft",
+    "description": "Habitory helps you build good habits and track personal growth through streaks and analytics. Create routines, set reminders, and visualize your progress with motivating charts. The app uses behavioral psychology to gently nudge you toward consistency. It’s simple, elegant, and surprisingly addictive in all the right ways.",
+    "size": 75,
+    "reviews": 31000,
+    "ratingAvg": 4.7,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 19100 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co.com/VRx9GNQ/Think-Box-1.png",
+    "title": "ThinkBox",
+    "companyName": "IdeaLab Studio",
+    "description": "ThinkBox is a creative idea management app designed for innovators, entrepreneurs, and teams. Jot down quick ideas, tag them by theme, and connect them through visual mind maps. With AI-powered suggestion tools, it helps you refine your raw concepts into actionable plans. Turn your thoughts into projects — one box at a time.",
+    "size": 95,
+    "reviews": 18000,
+    "ratingAvg": 4.8,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 11300 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co.com/htX1zt3/Budgetly-1.png",
+    "title": "Budgetly",
+    "companyName": "Finovo Ltd.",
+    "description": "Budgetly is your smart personal finance tracker that helps you save more every month. It automatically categorizes your expenses, tracks recurring bills, and shows where your money goes. The built-in AI advisor gives personalized spending tips based on your habits. With Budgetly, financial awareness becomes effortless and rewarding.",
+    "size": 90,
+    "reviews": 42000,
+    "ratingAvg": 4.7,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 9800 },
+      { "name": "5 star", "count": 23700 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co.com/PZCHNpmk/Mind-Board-1.png",
+    "title": "MindBoard",
+    "companyName": "Cortex Systems",
+    "description": "MindBoard blends digital whiteboarding with brainstorming intelligence. Collaborate with teams using sticky notes, diagrams, and flowcharts that update in real time. The AI summarizer can convert your board into structured meeting notes automatically. Perfect for designers, strategists, and educators who thrive on visual collaboration.",
+    "size": 120,
+    "reviews": 33000,
+    "ratingAvg": 4.8,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 7800 },
+      { "name": "5 star", "count": 21000 }
+    ]
+  }
+]

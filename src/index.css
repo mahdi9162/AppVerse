@@ -1,3 +1,6 @@
+/* Google Font Link Here */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Tailwind And DaisyUI Link Here */
 @import 'tailwindcss';
 @plugin "daisyui";
 
@@ -6,9 +9,20 @@ body {
   @apply bg-[#F5F5F5];
 }
 
+.font-heading {
+  font-family: 'Poppins', sans-serif;
+}
+.font-p {
+  font-family: 'Inter', sans-serif;
+}
+
 /* Navbar Style */
+.logo-name-style {
+  @apply text-lg md:text-2xl font-semibold bg-gradient-to-r from-blue-400 via-sky-400 to-indigo-500 bg-clip-text text-transparent drop-shadow-[0_0_10px_#60a5fa] leading-tight ;
+}
+
 .nav-link {
-  @apply text-gray-500 pb-1 transition-all duration-400 text-lg font-semibold;
+  @apply text-gray-500 pb-1 transition-all duration-400 text-sm md:text-lg font-semibold;
 }
 
 .nav-link:hover {
@@ -16,11 +30,11 @@ body {
 }
 
 .nav-link-active {
-  @apply bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent border-b-2 border-sky-500 drop-shadow-[0_0_8px_#38bdf8] text-2xl font-semibold;
+  @apply bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent border-b-2 border-sky-500 drop-shadow-[0_0_8px_#38bdf8] text-base md:text-2xl font-semibold transition-all duration-400;
 }
 
 .nav-btn {
-  @apply px-5 py-2 rounded-md font-semibold 
+  @apply px-2 md:px-4 py-2 rounded-md md:font-semibold 
   bg-gradient-to-r from-sky-500 to-blue-600 
   text-white shadow-[0_0_12px_#38bdf8]
   transition-all duration-500;
@@ -28,4 +42,16 @@ body {
 
 .nav-btn:hover {
   @apply from-blue-500 to-sky-600 shadow-[0_0_18px_#60a5fa]  scale-[1.03] cursor-pointer;
+}
+
+.hero-card {
+  @apply border-1 md:border-0 border-gray-300/30 py-4 md:py-0 rounded-2xl
+}
+
+.hero-card-details {
+  @apply text-3xl md:text-6xl text-transparent font-bold md:font-semibold bg-clip-text bg-gradient-to-r from-[#E0E7FF] to-[#F5D0FE] my-3
+}
+
+.hero-btn {
+  @apply h-12 w-auto transform transition-all duration-600 hover:-translate-y-1 hover:scale-105 hover:shadow-[0_5px_15px_rgba(0,0,0,0.25)]
 }

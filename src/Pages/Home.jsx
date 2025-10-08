@@ -1,11 +1,16 @@
 import React from 'react';
+import useApps from '../Hooks/useApps';
+import HeroSection from '../Components/HeroSection/HeroSection';
 
 const Home = () => {
-    return (
-        <div>
-            <h1>Hlw From Home</h1>
-        </div>
-    );
+  const data = useApps();
+  console.log(data);
+
+  return (
+    <>
+      <HeroSection></HeroSection>
+    </>
+  );
 };
 
 export default Home;
