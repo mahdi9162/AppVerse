@@ -36,12 +36,12 @@ const Navbar = () => {
                 </ul>
               </div>
               <Link to="/">
-                <div class="flex items-center gap-2">
+                <div className="flex items-center gap-2">
                   <img src={navLogo} alt="AppVerse logo" className="w-8 md:w-10 h-8 md:h-10" />
                   <div>
                     <h1 className="logo-name-style font-heading">AppVerse</h1>
 
-                    <p class="text-[12px] hidden md:block md:text-base text-gray-500 tracking-wide -mt-0.5 font-p">
+                    <p className="text-[12px] hidden md:block md:text-base text-gray-500 tracking-wide -mt-0.5 font-p">
                       Explore the universe of productive apps
                     </p>
                   </div>

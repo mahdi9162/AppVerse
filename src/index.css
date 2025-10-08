@@ -55,3 +55,15 @@ body {
 .hero-btn {
   @apply h-12 w-auto transform transition-all duration-600 hover:-translate-y-1 hover:scale-105 hover:shadow-[0_5px_15px_rgba(0,0,0,0.25)];
 }
+
+.secondary-btn-style {
+  @apply px-5 md:px-10 py-3 rounded-md font-medium text-white 
+             bg-gradient-to-r from-violet-500 to-indigo-500
+             shadow-md hover:shadow-lg hover:scale-[1.03]
+             transition-all duration-500;
+}
+
+.trending-card-style {
+  @apply p-4 rounded-2xl bg-white/80 backdrop-blur-md border border-slate-200
+     transition-all duration-500 hover:-translate-y-1 hover:border-sky-300 hover:ring-1 hover:ring-sky-200/50 hover:shadow-lg hover:shadow-sky-100/40;
+}
