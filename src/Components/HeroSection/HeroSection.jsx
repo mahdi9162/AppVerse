@@ -47,22 +47,22 @@ const HeroSection = () => {
                font-heading font-semibold text-lg md:text-5xl">
               Trusted by Millions, Built for You
             </h2>
-            <div className="px-3 md:px-0 flex justify-center flex-col md:flex-row mt-5 md:mt-10 gap-6 md:gap-20">
-              <div className="hero-card font-p">
+            <div className="px-3 md:px-0 flex justify-center items-center flex-col md:flex-row mt-5 md:mt-10 gap-6 md:gap-20">
+              <div className="hero-card font-p bg-gradient-to-r from-purple-500 to-pink-500">
                 <p className="text-[#E0F2FF] text-sm md:text-base">Total Downloads</p>
                 <p className="hero-card-details">
                   29.6M
                 </p>
                 <p className="text-[#E0F2FF] text-sm md:text-base">21% more than last month</p>
               </div>
-              <div className="hero-card font-p">
+              <div className="hero-card font-p bg-gradient-to-r from-sky-500 to-blue-600">
                 <p className="text-[#E0F2FF] text-sm md:text-base">Total Reviews</p>
                 <p className="hero-card-details">
                   906K
                 </p>
                 <p className="text-[#E0F2FF] text-sm md:text-base">46% more than last month</p>
               </div>
-              <div className="hero-card font-p">
+              <div className="hero-card font-p bg-gradient-to-r from-emerald-500 to-teal-400">
                 <p className="text-[#E0F2FF] text-sm md:text-base">Active Apps</p>
                 <p className="hero-card-details">
                   132+

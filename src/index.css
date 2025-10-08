@@ -18,7 +18,7 @@ body {
 
 /* Navbar Style */
 .logo-name-style {
-  @apply text-lg md:text-2xl font-semibold bg-gradient-to-r from-blue-400 via-sky-400 to-indigo-500 bg-clip-text text-transparent drop-shadow-[0_0_10px_#60a5fa] leading-tight ;
+  @apply text-lg md:text-2xl font-semibold bg-gradient-to-r from-blue-400 via-sky-400 to-indigo-500 bg-clip-text text-transparent drop-shadow-[0_0_10px_#60a5fa] leading-tight;
 }
 
 .nav-link {
@@ -45,13 +45,13 @@ body {
 }
 
 .hero-card {
-  @apply border-1 md:border-0 border-gray-300/30 py-4 md:py-0 rounded-2xl
+  @apply md:h-48 w-full md:w-72 flex flex-col justify-center border-none rounded-2xl p-6 text-white transition-all duration-600 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20;
 }
 
 .hero-card-details {
-  @apply text-3xl md:text-6xl text-transparent font-bold md:font-semibold bg-clip-text bg-gradient-to-r from-[#E0E7FF] to-[#F5D0FE] my-3
+  @apply text-3xl md:text-6xl text-transparent font-bold md:font-semibold bg-clip-text bg-gradient-to-r from-[#E0E7FF] to-[#F5D0FE] my-3;
 }
 
 .hero-btn {
-  @apply h-12 w-auto transform transition-all duration-600 hover:-translate-y-1 hover:scale-105 hover:shadow-[0_5px_15px_rgba(0,0,0,0.25)]
+  @apply h-12 w-auto transform transition-all duration-600 hover:-translate-y-1 hover:scale-105 hover:shadow-[0_5px_15px_rgba(0,0,0,0.25)];
 }
