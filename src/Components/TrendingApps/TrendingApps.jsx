@@ -14,7 +14,7 @@ const TrendingApps = ({ app }) => {
         <figure>
           <img className="w-full h-40 md:h-56 object-cover rounded-xl " src={image} loading="lazy" alt="" />
         </figure>
-        <h3 className="font-heading font-semibold text-slate-800 my-3">{title}</h3>
+        <h3 className="font-heading text-sm md:text-base font-semibold text-slate-800 my-3">{title}</h3>
         <div className="flex justify-between">
           <p
             className="flex items-center font-p px-2 py-1 rounded-md bg-sky-50 text-sky-600 
