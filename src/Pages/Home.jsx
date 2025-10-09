@@ -7,8 +7,7 @@ import { Link } from 'react-router';
 
 const Home = () => {
   const data = useApps();
-  const { apps, loading, error } = data;
-
+  const { apps } = data;
   const trendingApps = apps.slice(0, 8);
 
   return (
@@ -19,9 +18,11 @@ const Home = () => {
         <Container>
           <div className="text-center mb-10">
             <h2 className="text-3xl md:text-5xl font-heading mb-3 text-slate-900 font-semibold">Trending Apps</h2>
-            <p className="text-gray-500 font-p text-sm md:text-base">Explore our hand-picked trending apps <span className='block md:inline'>built for everyday productivity</span></p>
+            <p className="text-gray-500 font-p text-sm md:text-base">
+              Explore our hand-picked trending apps <span className="block md:inline">built for everyday productivity</span>
+            </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-x-6 md:gap-y-8 mb-10 px-3 md:px-0">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-x-6 md:gap-y-8 mb-10 px-3 md:px-0 cursor-pointer">
             {trendingApps.map((app) => (
               <TrendingApps key={app.id} app={app}></TrendingApps>
             ))}

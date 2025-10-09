@@ -83,3 +83,22 @@ body {
 .apps-input svg {
   @apply text-slate-400 transition-colors duration-500 group-focus-within:text-violet-500;
 }
+
+/* App Details Style */
+.download-card {
+  @apply rounded-xl px-4 py-3 text-center bg-white/70 backdrop-blur-sm border border-white/50
+        shadow-[0_6px_16px_-4px_rgba(0,0,0,.12),0_3px_6px_-2px_rgba(0,0,0,.06)] mt-1 sm:mt-0;
+}
+
+.rating-card {
+  @apply rounded-xl px-4 py-3 text-center bg-white/80 backdrop-blur-sm md:backdrop-blur-none border md:border-0 border-white/60
+  ring-1 ring-orange-400/25 shadow-lg shadow-orange-500/20
+  relative z-10 -translate-y-1.5
+  transition-transform duration-300
+  md:ring-0 md:shadow-none md:translate-y-0 md:bg-transparent;
+}
+
+.total-reviews-card {
+  @apply rounded-xl px-4 py-3 text-center bg-white/70 backdrop-blur-sm border border-white/50
+          shadow-[0_6px_16px_-4px_rgba(0,0,0,.12),0_3px_6px_-2px_rgba(0,0,0,.06)] mt-1 sm:mt-0;
+}
