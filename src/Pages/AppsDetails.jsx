@@ -7,22 +7,31 @@ import downloadIcon from '../assets/icon-downloads.png';
 import ratingIcon from '../assets/icon-ratings.png';
 import averageReviewsIcon from '../assets/icon-review.png';
 import AppChart from '../Components/AppChart/AppChart';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { loadInstalledData, updateInstalledData } from '../utils/localStorage';
 
 const AppsDetails = () => {
   const [isInstall, setIsInstall] = useState(false);
+
   const params = useParams();
   const paramsNum = Number(params.id);
+
+  useEffect(() => {
+    const loadData = loadInstalledData();
+    const isAlreadyInstalled = loadData.includes(paramsNum);
+    if (isAlreadyInstalled) setIsInstall(true);
+  }, [paramsNum]);
 
   const { apps, loading } = useApps();
   if (loading) return <p>Loading...</p>;
   const appDetail = apps.find((app) => app.id === paramsNum);
-  const { companyName, description, downloads, image, ratingAvg, ratings, reviews, title } = appDetail;
+  const { id, companyName, downloads, image, ratingAvg, ratings, reviews, title } = appDetail;
 
-  const handleInstallBtn = () => {
+  const handleInstallBtn = (id) => {
+    updateInstalledData(id);
     setIsInstall(true);
   };
-  console.log('Current install state:', isInstall);
+
   return (
     <>
       <section className="flex mt-10 md:mt-20">
@@ -73,7 +82,9 @@ const AppsDetails = () => {
                 </div>
               </div>
               <div className="text-center md:text-start font-p">
-                <button disabled={isInstall} onClick={handleInstallBtn} className= 'install-btn '>{`${isInstall ? 'Installed' : 'Install'}`}</button>
+                <button disabled={isInstall} onClick={() => handleInstallBtn(id)} className="install-btn ">{`${
+                  isInstall ? 'Installed' : 'Install'
+                }`}</button>
               </div>
             </div>
           </div>
