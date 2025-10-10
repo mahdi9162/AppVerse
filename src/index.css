@@ -102,3 +102,14 @@ body {
   @apply rounded-xl px-4 py-3 text-center bg-white/70 backdrop-blur-sm border border-white/50
           shadow-[0_6px_16px_-4px_rgba(0,0,0,.12),0_3px_6px_-2px_rgba(0,0,0,.06)] mt-1 sm:mt-0;
 }
+
+.install-btn {
+  @apply px-16 py-3 mt-4 rounded-lg text-white font-semibold 
+bg-gradient-to-r from-emerald-500 to-green-500 
+hover:from-emerald-600 hover:to-green-600 
+shadow-[0_4px_12px_rgba(16,185,129,0.25)] 
+transition-all duration-600 cursor-pointer disabled:from-emerald-200 disabled:to-emerald-200
+disabled:text-emerald-700 disabled:opacity-70
+disabled:border disabled:border-emerald-300
+disabled:shadow-none disabled:cursor-not-allowed;
+}
