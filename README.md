@@ -14,7 +14,7 @@ It provides a seamless user experience across mobile, tablet, and desktop — fr
 - 🔍 **Explore Apps:** Browse all productivity apps and search dynamically with instant loader animation.
 - 📈 **Trending Section:** View top-rated and most downloaded apps with stats and visual appeal.
 - 🧩 **App Details Page:** See each app’s full info — including downloads, ratings, and breakdown charts.
-- ⚙️ **Local Install System:** Click **Install** to save the app in localStorage. The button instantly updates to show **Uninstall**.
+- ⚙️ **Local Install System:** Click **Install** to save the app in localStorage. The button instantly updates to show **installed**.
 - ❌ **Uninstall Functionality:** Removes the app from both UI and localStorage instantly.
 - 📊 **Ratings Breakdown Chart:** Interactive visual chart (bar representation) for user ratings.
 - 🔄 **Loader Animation:** Smooth loader appears during all data fetches and searches.
