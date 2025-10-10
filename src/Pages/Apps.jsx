@@ -75,7 +75,7 @@ const Apps = () => {
           {searchedApps.length < 1 && (
             <div>
               <Lottie animationData={emptyBox} loop autoplay className="w-64 mx-auto mt-12" />
-              <p className="text-center text-slate-600 mt-4 text-lg hover:text-slate-700 transition">
+              <p className="text-center text-slate-600 md:text-lg hover:text-slate-700 transition">
                 📦 No apps found. Try a different name!
               </p>
             </div>
