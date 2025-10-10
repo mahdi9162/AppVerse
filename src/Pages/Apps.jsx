@@ -86,7 +86,7 @@ const Apps = () => {
               <Lottie animationData={searchAnimation} style={{ height: 300 }} />
             </div>
           ) : (
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-x-6 md:gap-y-8 mb-10 px-3 md:px-0">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 md:gap-x-6 md:gap-y-8 mb-10 px-3 lg:px-0">
               {searchedApps.map((app) => (
                 <TrendingApps key={app.id} app={app}></TrendingApps>
               ))}

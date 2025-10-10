@@ -41,9 +41,9 @@ const Installation = () => {
 
   return (
     <>
-      <section className="px-3 md:px-0">
+      <section className="px-3 lg:px-0">
         <Container>
-          <div className="text-center my-10 md:my-20">
+          <div className="text-center my-10 lg:my-20">
             <h2 className="text-3xl md:text-5xl font-heading mb-3 text-slate-900 font-semibold ">Your Installed Apps</h2>
             <p className="text-gray-500 font-p text-sm md:text-base">Explore your installed apps in one place.</p>
           </div>

@@ -6,10 +6,6 @@ const Footer = () => {
   return (
     <>
       <footer className="footer-style">
-        {/* soft glow orbs */}
-        <div className="pointer-events-none absolute -top-20 -left-32 h-72 w-72 bg-gradient-to-br from-indigo-300/20 via-sky-300/15 to-transparent blur-3xl"></div>
-        <div className="pointer-events-none absolute -bottom-20 -right-32 h-80 w-80 bg-gradient-to-tr from-sky-300/20 via-indigo-300/10 to-transparent blur-3xl"></div>
-
         <Container>
           <div className="footer sm:footer-horizontal text-base-content md:p-10">
             <aside className="space-y-3">

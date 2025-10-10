@@ -50,9 +50,9 @@ const AppsDetails = () => {
 
   return (
     <>
-      <section className="flex mt-10 mb-10 md:mb-20 md:mt-20">
+      <section className="flex mt-10 mb-10 lg:mb-20 lg:mt-20">
         <Container>
-          <div className="flex flex-col md:flex-row gap-4 md:gap-8 pb-8 md:pb-14 border-b border-gray-400/40 px-3 md:px-0">
+          <div className="flex flex-col lg:flex-row gap-4 lg:gap-8 pb-8 md:pb-14 border-b border-gray-400/40 px-3 lg:px-0">
             {/* div left */}
             <figure className="mx-auto">
               <img className="w-30 md:h-80 md:object-cover md:w-96 rounded-2xl shadow-lg" src={image} alt="" />
@@ -61,8 +61,8 @@ const AppsDetails = () => {
             <div className="flex-1">
               {/* div right */}
               {/* title and company name */}
-              <div className="text-center md:text-start border-b border-gray-400/40 pb-3 md:pb-4">
-                <h1 className="text-2xl md:text-4xl font-semibold font-heading mb-1">{title}</h1>
+              <div className="text-center lg:text-start border-b border-gray-400/40 pb-3 md:pb-4">
+                <h1 className="text-2xl  md:text-4xl font-semibold font-heading mb-1">{title}</h1>
                 <p className="text-gray-400 text-sm font-p">
                   Developed by <span className="text-blue-600 font-medium">{companyName}</span>
                 </p>
@@ -97,7 +97,7 @@ const AppsDetails = () => {
                   </p>
                 </div>
               </div>
-              <div className="text-center md:text-start font-p">
+              <div className="text-center lg:text-start font-p">
                 <button disabled={isInstall} onClick={() => handleInstallBtn(id)} className="install-btn ">{`${
                   isInstall ? 'Installed' : 'Install'
                 }`}</button>

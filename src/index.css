@@ -72,16 +72,19 @@ body {
 }
 
 /* All Apps Style */
+/* wrapper: icon + input */
 .apps-input {
-  @apply flex items-center gap-2 w-44 md:w-[350px] rounded-lg border border-slate-200 bg-white px-2 md:px-4 py-1 md:py-2 text-slate-700 shadow-sm focus-within:ring-2 focus-within:ring-violet-500/40 focus-within:border-violet-500 transition duration-500;
+  @apply flex items-center gap-2 w-46 md:w-88 rounded-lg border border-slate-200 bg-white px-3 py-2 focus-within:border-violet-500;
 }
 
+/* input */
 .apps-input input {
-  @apply bg-transparent outline-none text-base placeholder:text-slate-400 placeholder:text-sm md:placeholder:text-base;
+  @apply w-full bg-transparent outline-none text-sm md:text-base placeholder:text-slate-400;
 }
 
+/* icon */
 .apps-input svg {
-  @apply text-slate-400 transition-colors duration-500 group-focus-within:text-violet-500;
+  @apply text-slate-400;
 }
 
 /* App Details Style */
@@ -91,11 +94,11 @@ body {
 }
 
 .rating-card {
-  @apply rounded-xl px-4 py-3 text-center bg-white/80 backdrop-blur-sm md:backdrop-blur-none border md:border-0 border-white/60
+  @apply rounded-xl px-4 py-3 text-center bg-white/80 backdrop-blur-sm lg:backdrop-blur-none border lg:border-0 border-white/60
   ring-1 ring-orange-400/25 shadow-lg shadow-orange-500/20
   relative z-10 -translate-y-1.5
   transition-transform duration-300
-  md:ring-0 md:shadow-none md:translate-y-0 md:bg-transparent;
+  lg:ring-0 lg:shadow-none lg:translate-y-0 lg:bg-transparent;
 }
 
 .total-reviews-card {
@@ -107,7 +110,7 @@ body {
   @apply px-16 py-3 mt-4 rounded-lg text-white font-semibold
  bg-emerald-500 hover:bg-emerald-600 shadow-[0_4px_12px_rgba(16,185,129,0.25)] transition-colors duration-700 cursor-pointer disabled:from-emerald-200 disabled:to-emerald-200
  disabled:opacity-70 disabled:border disabled:border-emerald-300
-disabled:shadow-none disabled:cursor-not-allowed disabled:text-white ;
+disabled:shadow-none disabled:cursor-not-allowed disabled:text-white;
 }
 
 /* Installation Page */

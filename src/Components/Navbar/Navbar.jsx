@@ -9,7 +9,7 @@ const Navbar = () => {
     <>
       <nav className="bg-base-100 shadow-sm py-3">
         <Container>
-          <div className="navbar px-3 md:px-0">
+          <div className="navbar px-3 lg:px-0">
             <div className="navbar-start">
               <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

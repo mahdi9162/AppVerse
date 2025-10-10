@@ -44,10 +44,10 @@ const HeroSection = () => {
           <Container>
             <h2
               className="text-[#F8FAFC] drop-shadow-[0_0_4px_rgba(255,255,255,0.3)]
-               font-heading font-semibold text-lg md:text-5xl">
+               font-heading font-semibold text-lg md:text-3xl lg:text-5xl">
               Trusted by Millions, Built for You
             </h2>
-            <div className="px-3 md:px-0 flex justify-center items-center flex-col md:flex-row mt-5 md:mt-10 gap-6 md:gap-20">
+            <div className="px-3 md:px-0 flex justify-center items-center flex-col lg:flex-row mt-5 md:mt-10 gap-6 lg:gap-10 ">
               <div className="hero-card font-p bg-gradient-to-r from-purple-500 to-pink-500">
                 <p className="text-[#E0F2FF] text-sm md:text-base">Total Downloads</p>
                 <p className="hero-card-details">
