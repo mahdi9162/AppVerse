@@ -107,7 +107,7 @@ const AppsDetails = () => {
 
           <AppChart ratings={ratings}></AppChart>
 
-          <div className="px-3 md:px-0 w-92 md:max-w-3xl text-center mx-auto">
+          <div className="px-3 md:px-0 w-92 md:max-w-3xl lg:w-full text-center mx-auto">
             <h1 className="font-heading font-heading text-3xl font-semibold mb-6 text-slate-800 relative inline-block">
               Description
               <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-52 h-[3px] bg-gradient-to-r from-blue-500 to-indigo-500/50 rounded-full"></span>
