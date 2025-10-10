@@ -9,6 +9,9 @@ import averageReviewsIcon from '../assets/icon-review.png';
 import AppChart from '../Components/AppChart/AppChart';
 import { useEffect, useState } from 'react';
 import { loadInstalledData, updateInstalledData } from '../utils/localStorage';
+import loadingAnimation from '../assets/loading.json';
+import Lottie from 'lottie-react';
+import { toast } from 'sonner';
 
 const AppsDetails = () => {
   const [isInstall, setIsInstall] = useState(false);
@@ -23,18 +26,31 @@ const AppsDetails = () => {
   }, [paramsNum]);
 
   const { apps, loading } = useApps();
-  if (loading) return <p>Loading...</p>;
+  if (loading)
+    return (
+      <div className="flex justify-center items-center h-96">
+        <Lottie animationData={loadingAnimation} style={{ height: 300 }} />
+      </div>
+    );
   const appDetail = apps.find((app) => app.id === paramsNum);
-  const { id, companyName, downloads, image, ratingAvg, ratings, reviews, title } = appDetail;
+  const { id, companyName, downloads, image, description, ratingAvg, ratings, reviews, title } = appDetail;
 
   const handleInstallBtn = (id) => {
     updateInstalledData(id);
     setIsInstall(true);
+    toast.success(`${title} has been successfully installed 🚀`, {
+      style: {
+        background: '#ecfdf5',
+        color: '#065f46',
+        border: '1px solid #6ee7b7',
+        boxShadow: '0 4px 12px rgba(16,185,129,0.2)',
+      },
+    });
   };
 
   return (
     <>
-      <section className="flex mt-10 md:mt-20">
+      <section className="flex mt-10 mb-10 md:mb-20 md:mt-20">
         <Container>
           <div className="flex flex-col md:flex-row gap-4 md:gap-8 pb-8 md:pb-14 border-b border-gray-400/40 px-3 md:px-0">
             {/* div left */}
@@ -90,6 +106,11 @@ const AppsDetails = () => {
           </div>
 
           <AppChart ratings={ratings}></AppChart>
+
+          <div className="px-3 md:px-0 w-92 md:w-full text-center mx-auto">
+            <h1 className="font-heading font-bold text-2xl mb-5">Description</h1>
+            <p className="font-p text-sm text-justify md:text-base">{description}</p>
+          </div>
         </Container>
       </section>
     </>

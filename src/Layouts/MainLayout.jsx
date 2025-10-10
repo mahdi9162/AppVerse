@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
 import { Outlet } from 'react-router';
+import { Toaster } from 'sonner';
 
 const MainLayout = () => {
   return (
@@ -13,6 +14,7 @@ const MainLayout = () => {
         </div>
         <Footer></Footer>
       </div>
+      <Toaster richColors position="top-right" />
     </>
   );
 };

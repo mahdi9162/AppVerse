@@ -30,6 +30,10 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: '*',
+    Component: ErrorPage,
+  },
 ]);
 
 export default router;

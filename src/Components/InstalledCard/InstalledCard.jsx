@@ -2,14 +2,22 @@ import React from 'react';
 import { GoDownload } from 'react-icons/go';
 import { formatNumber } from '../../utils/formatNumber';
 import { IoMdStar } from 'react-icons/io';
+import { toast } from 'sonner';
 
 const InstalledCard = ({ app, handleUninstall }) => {
-
   const { id, downloads, image, ratingAvg, size, title } = app;
 
   const handleRemoveBtn = (id) => {
-    handleUninstall(id)
-  }
+    handleUninstall(id);
+    toast.error(`${title} has been uninstalled ❌`, {
+      style: {
+        background: '#fff1f2',
+        color: '#881337',
+        border: '1px solid #fda4af',
+        boxShadow: '0 4px 12px rgba(244,63,94,0.2)',
+      },
+    });
+  };
   return (
     <>
       <div className="install-card-main">
@@ -33,7 +41,9 @@ const InstalledCard = ({ app, handleUninstall }) => {
           </div>
         </div>
         {/* Right Content */}
-        <button onClick={() => handleRemoveBtn(id)} className="uninstall-btn">Uninstall</button>
+        <button onClick={() => handleRemoveBtn(id)} className="uninstall-btn">
+          Uninstall
+        </button>
       </div>
     </>
   );

@@ -4,10 +4,18 @@ import HeroSection from '../Components/HeroSection/HeroSection';
 import Container from '../Components/Container/Container';
 import TrendingApps from '../Components/TrendingApps/TrendingApps';
 import { Link } from 'react-router';
+import loadingAnimation from '../assets/loading.json';
+import Lottie from 'lottie-react';
 
 const Home = () => {
-  const data = useApps();
-  const { apps } = data;
+  const { apps, loading } = useApps();
+  if (loading)
+    return (
+      <div className="flex justify-center items-center h-96">
+        <Lottie animationData={loadingAnimation} style={{ height: 300 }} />
+      </div>
+    );
+
   const trendingApps = apps.slice(0, 8);
 
   return (

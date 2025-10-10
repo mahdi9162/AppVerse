@@ -62,7 +62,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <NavLink to="/installation" className={({ isActive }) => (isActive ? 'nav-link-active' : 'nav-link')}>
-                    Installation
+                   Installation
                   </NavLink>
                 </li>
               </ul>

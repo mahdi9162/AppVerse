@@ -2,14 +2,34 @@ import React, { useState } from 'react';
 import useApps from '../Hooks/useApps';
 import Container from '../Components/Container/Container';
 import TrendingApps from '../Components/TrendingApps/TrendingApps';
-import { Link } from 'react-router';
+import loadingAnimation from '../assets/loading.json';
+import Lottie from 'lottie-react';
+import searchAnimation from '../assets/Searching radius.json';
+import emptyBox from '../assets/empty.json';
 
 const Apps = () => {
-  const { apps } = useApps();
-
+  const { apps, loading } = useApps();
   const [search, setSearch] = useState('');
+  const [isSearching, setIsSearching] = useState(false);
+
+  if (loading)
+    return (
+      <div className="flex justify-center items-center h-96">
+        <Lottie animationData={loadingAnimation} style={{ height: 300 }} />
+      </div>
+    );
+
   const term = search.trim().toLocaleLowerCase();
   const searchedApps = term ? apps.filter((app) => app.title.toLocaleLowerCase().includes(term)) : apps;
+
+  const handleSearchChange = (e) => {
+    const searchTerm = e.target.value;
+    setIsSearching(true);
+    setTimeout(() => {
+      setSearch(searchTerm);
+      setIsSearching(false);
+    }, 500);
+  };
 
   const countApps = searchedApps.length;
   const formatter = new Intl.NumberFormat();
@@ -41,7 +61,7 @@ const Apps = () => {
                   </g>
                 </svg>
                 <input
-                  onChange={(e) => setSearch(e.target.value)}
+                  onChange={handleSearchChange}
                   value={search}
                   type="search"
                   required
@@ -51,11 +71,27 @@ const Apps = () => {
               </label>
             </div>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-x-6 md:gap-y-8 mb-10 px-3 md:px-0">
-            {searchedApps.map((app) => (
-              <TrendingApps key={app.id} app={app}></TrendingApps> 
-            ))}
-          </div>
+
+          {searchedApps.length < 1 && (
+            <div>
+              <Lottie animationData={emptyBox} loop autoplay className="w-64 mx-auto mt-12" />
+              <p className="text-center text-slate-600 mt-4 text-lg hover:text-slate-700 transition">
+                📦 No apps found. Try a different name!
+              </p>
+            </div>
+          )}
+
+          {isSearching ? (
+            <div className="col-span-full flex justify-center items-center h-96">
+              <Lottie animationData={searchAnimation} style={{ height: 300 }} />
+            </div>
+          ) : (
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-x-6 md:gap-y-8 mb-10 px-3 md:px-0">
+              {searchedApps.map((app) => (
+                <TrendingApps key={app.id} app={app}></TrendingApps>
+              ))}
+            </div>
+          )}
         </Container>
       </section>
     </>

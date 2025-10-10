@@ -3,7 +3,8 @@ import { loadInstalledData, removeCard } from '../utils/localStorage';
 import useApps from '../Hooks/useApps';
 import Container from '../Components/Container/Container';
 import InstalledCard from '../Components/InstalledCard/InstalledCard';
-
+import loadingAnimation from '../assets/loading.json';
+import Lottie from 'lottie-react';
 const Installation = () => {
   const [installedApps, setInstalledApps] = useState(loadInstalledData);
   const [sortOrder, setSortOrder] = useState('none');
@@ -16,7 +17,12 @@ const Installation = () => {
 
   const { apps, loading } = useApps();
 
-  if (loading) return <p>Loading...</p>;
+  if (loading)
+    return (
+      <div className="flex justify-center items-center h-96">
+        <Lottie animationData={loadingAnimation} style={{ height: 300 }} />
+      </div>
+    );
   const data = apps.filter((app) => installedApps.includes(app.id));
 
   const countApps = data.length;
