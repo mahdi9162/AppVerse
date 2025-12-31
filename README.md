@@ -67,6 +67,22 @@ It provides a seamless user experience across mobile, tablet, and desktop — fr
 
 ---
 
+## 🚀 Run Locally
+
+1. Clone the repository  
+   git clone https://github.com/mahdi9162/AppVerse.git
+
+2. Navigate to the project folder  
+   cd AppVerse
+
+3. Install dependencies  
+   npm install
+
+4. Start the development server  
+   npm run dev
+
+---
+
 ## 🖥️ Live Demo
 
 👉 **Visit the site:** [https://appversee.netlify.app](https://appversee.netlify.app)
