@@ -67,19 +67,25 @@ It provides a seamless user experience across mobile, tablet, and desktop — fr
 
 ---
 
-## 🚀 Run Locally
+## ⚙️ Project Setup
 
-1. Clone the repository  
-   git clone https://github.com/mahdi9162/AppVerse.git
+To run the project locally:
 
-2. Navigate to the project folder  
-   cd AppVerse
+```bash
+# 1. Clone the repository
+git clone https://github.com/mahdi9162/Skillora.git
 
-3. Install dependencies  
-   npm install
+# 2. Navigate to project folder
+cd Skillora
 
-4. Start the development server  
-   npm run dev
+# 3. Install dependencies
+npm install
+
+# 4. Create .env.local file and add your Firebase config keys
+
+# 5. Start the development server
+npm run dev
+```
 
 ---
 
