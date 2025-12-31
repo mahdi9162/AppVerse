@@ -73,7 +73,7 @@ To run the project locally:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/mahdi9162/Skillora.git
+git clone https://github.com/mahdi9162/AppVerse.git
 
 # 2. Navigate to project folder
 cd Skillora
